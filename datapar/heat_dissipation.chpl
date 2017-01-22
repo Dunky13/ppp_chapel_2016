@@ -1,8 +1,8 @@
 use util;
 use Time;
 use VisualDebug;
-use BlockDist;
-/*use DimensionalDist2D, ReplicatedDim, BlockCycDim;*/
+/*use BlockDist;*/
+use DimensionalDist2D, ReplicatedDim, BlockCycDim;
 
 config const N = 150;
 config const M = 100;
@@ -19,7 +19,25 @@ config const help_params = false;
 
 /* Add your code here */
 const Space = {1..N, 1..M};
-const D: domain(2) dmapped Block(boundingBox=Space) = Space; // dmapped new Block({1..N, 1..M});
+/*const D: domain(2) dmapped Block(boundingBox=Space) = Space; // dmapped new Block({1..N, 1..M});*/
+
+var (N_1, N_2) =
+  if numLocales == 1
+    then (1, 1)
+    else (2, numLocales/2);
+
+var MyLocaleView = {0..N_1-1, 0..N_2-1};
+var MyLocales = reshape(Locales[0..N_1*N_2-1], MyLocaleView);
+
+const D = Space
+  dmapped DimensionalDist2D(MyLocales,
+                            new ReplicatedDim(numLocales = N_1),
+                            new BlockCyclicDim(numLocales = N_2,
+                                               lowIdx     = 1,
+                                               blockSize  = 2));
+
+
+
 print_parameters();
 
 const tinit: [D] real;
