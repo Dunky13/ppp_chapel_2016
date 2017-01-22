@@ -2,7 +2,6 @@ use util;
 use Time;
 use VisualDebug;
 use BlockDist;
-/*use DimensionalDist2D, ReplicatedDim, BlockCycDim;*/
 
 config const N = 150;
 config const M = 100;
@@ -20,6 +19,7 @@ config const help_params = false;
 /* Add your code here */
 const Space = {1..N, 1..M};
 const D: domain(2) dmapped Block(boundingBox=Space) = Space; // dmapped new Block({1..N, 1..M});
+
 print_parameters();
 
 const tinit: [D] real;
