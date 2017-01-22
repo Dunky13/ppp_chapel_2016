@@ -18,7 +18,6 @@ config const T = "/home/hphijma/images/pat2_150x100.pgm";*/
 config const help_params = false;
 
 /* Add your code here */
-/*const block = new Block({1..N, 1..M});*/
 const Space = {1..N, 1..M};
 const D: domain(2) dmapped Block(boundingBox=Space) = Space; // dmapped new Block({1..N, 1..M});
 print_parameters();
