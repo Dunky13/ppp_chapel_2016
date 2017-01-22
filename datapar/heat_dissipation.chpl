@@ -1,12 +1,7 @@
 use util;
 use Time;
 use VisualDebug;
-<<<<<<< HEAD
-use BlockDist;
-=======
-use CyclicDist;
-/*use DimensionalDist2D, ReplicatedDim, BlockCycDim;*/
->>>>>>> 62edc52d2b17ba108767b0d3d7677b984dd38783
+use BlockDist; 
 
 config const N = 150;
 config const M = 100;
@@ -23,13 +18,8 @@ config const help_params = false;
 
 /* Add your code here */
 const Space = {1..N, 1..M};
-<<<<<<< HEAD
 const D: domain(2) dmapped Block(boundingBox=Space) = Space; // dmapped new Block({1..N, 1..M});
 
-=======
-/*const D: domain(2) dmapped Block(boundingBox=Space) = Space; // dmapped new Block({1..N, 1..M});*/
-const D: domain(2) dmapped Cyclic(startIdx=Space.low) = Space;
->>>>>>> 62edc52d2b17ba108767b0d3d7677b984dd38783
 print_parameters();
 
 const tinit: [D] real;
