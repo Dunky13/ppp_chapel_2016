@@ -1,0 +1,282 @@
+ChplVdebug: ver 1.2 nodes 1 nid 0 tid 1 seq 68064835568.000 1485111264.836303 0.005171 0.015514 
+CHPL_HOME: /home/ubuntu/chapel-1.14.0
+DIR: /home/ubuntu/chap/seq
+Tablesize: 73
+fname: 0 <unknown>
+fname: 1 <internal>
+fname: 2 $CHPL_HOME/modules/internal/ChapelBase.chpl
+fname: 3 $CHPL_HOME/modules/internal/ChapelStandard.chpl
+fname: 4 $CHPL_HOME/modules/internal/PrintModuleInitOrder.chpl
+fname: 5 $CHPL_HOME/modules/internal/startInitCommDiags.chpl
+fname: 6 $CHPL_HOME/modules/internal/CPtr.chpl
+fname: 7 $CHPL_HOME/modules/internal/CString.chpl
+fname: 8 $CHPL_HOME/modules/internal/String.chpl
+fname: 9 $CHPL_HOME/modules/internal/ChapelDebugPrint.chpl
+fname: 10 $CHPL_HOME/modules/internal/ChapelEnv.chpl
+fname: 11 $CHPL_HOME/modules/internal/MemConsistency.chpl
+fname: 12 $CHPL_HOME/modules/internal/Atomics.chpl
+fname: 13 $CHPL_HOME/modules/internal/NetworkAtomics.chpl
+fname: 14 $CHPL_HOME/modules/internal/NetworkAtomicTypes.chpl
+fname: 15 $CHPL_HOME/modules/internal/AtomicsCommon.chpl
+fname: 16 $CHPL_HOME/modules/internal/ChapelIteratorSupport.chpl
+fname: 17 $CHPL_HOME/modules/internal/ChapelThreads.chpl
+fname: 18 $CHPL_HOME/modules/internal/ChapelThreadsInternal.chpl
+fname: 19 $CHPL_HOME/modules/internal/ChapelTasksInternal.chpl
+fname: 20 $CHPL_HOME/modules/internal/ChapelTuple.chpl
+fname: 21 $CHPL_HOME/modules/internal/ChapelRange.chpl
+fname: 22 $CHPL_HOME/modules/internal/ChapelReduce.chpl
+fname: 23 $CHPL_HOME/modules/internal/ChapelSyncvar.chpl
+fname: 24 $CHPL_HOME/modules/internal/localeModels/flat/LocaleModel.chpl
+fname: 25 $CHPL_HOME/modules/internal/ChapelLocale.chpl
+fname: 26 $CHPL_HOME/modules/internal/DefaultRectangular.chpl
+fname: 27 $CHPL_HOME/modules/internal/LocalesArray.chpl
+fname: 28 $CHPL_HOME/modules/internal/ChapelArray.chpl
+fname: 29 $CHPL_HOME/modules/internal/ChapelDistribution.chpl
+fname: 30 $CHPL_HOME/modules/internal/ChapelIO.chpl
+fname: 31 $CHPL_HOME/modules/internal/LocaleTree.chpl
+fname: 32 $CHPL_HOME/modules/internal/DefaultAssociative.chpl
+fname: 33 $CHPL_HOME/modules/internal/DefaultSparse.chpl
+fname: 34 $CHPL_HOME/modules/internal/DefaultOpaque.chpl
+fname: 35 $CHPL_HOME/modules/internal/ChapelTaskID.chpl
+fname: 36 $CHPL_HOME/modules/internal/tasktable/off/ChapelTaskTable.chpl
+fname: 37 $CHPL_HOME/modules/internal/MemTracking.chpl
+fname: 38 $CHPL_HOME/modules/internal/ChapelUtil.chpl
+fname: 39 $CHPL_HOME/modules/internal/ChapelDynDispHack.chpl
+fname: 40 $CHPL_HOME/modules/internal/stopInitCommDiags.chpl
+fname: 41 $CHPL_HOME/modules/internal/StringCasts.chpl
+fname: 42 $CHPL_HOME/modules/internal/ChapelNumLocales.chpl
+fname: 43 heat_dissipation.chpl
+fname: 44 ./util.chpl
+fname: 45 $CHPL_HOME/modules/standard/Time.chpl
+fname: 46 $CHPL_HOME/modules/packages/VisualDebug.chpl
+fname: 47 $CHPL_HOME/modules/standard/Assert.chpl
+fname: 48 $CHPL_HOME/modules/standard/Types.chpl
+fname: 49 $CHPL_HOME/modules/standard/Math.chpl
+fname: 50 $CHPL_HOME/modules/standard/CommDiagnostics.chpl
+fname: 51 $CHPL_HOME/modules/standard/gen/linux64-gnu/SysCTypes.chpl
+fname: 52 $CHPL_HOME/modules/standard/Reflection.chpl
+fname: 53 $CHPL_HOME/modules/standard/Sys.chpl
+fname: 54 $CHPL_HOME/modules/dists/DSIUtil.chpl
+fname: 55 $CHPL_HOME/modules/standard/List.chpl
+fname: 56 $CHPL_HOME/modules/packages/Sort.chpl
+fname: 57 $CHPL_HOME/modules/standard/SysBasic.chpl
+fname: 58 $CHPL_HOME/modules/standard/IO.chpl
+fname: 59 $CHPL_HOME/modules/packages/RangeChunk.chpl
+fname: 60 $CHPL_HOME/modules/packages/Search.chpl
+fname: 61 $CHPL_HOME/modules/standard/Error.chpl
+fname: 62 $CHPL_HOME/modules/standard/Regexp.chpl
+fname: 63 <command_line>
+fname: 64 <command_line>
+fname: 65 <command_line>
+fname: 66 <command_line>
+fname: 67 <command_line>
+fname: 68 <command_line>
+fname: 69 <command_line>
+fname: 70 <command_line>
+fname: 71 <command_line>
+fname: 72 <command_line>
+FIDNsize: 10
+FIDname: 0 3207 28 wrapcoforall_fn
+FIDname: 1 648 2 wrapcoforall_fn2
+FIDname: 2 648 2 wrapcoforall_fn3
+FIDname: 3 214 24 wrapcoforall_fn4
+FIDname: 4 98 46 wrapcoforall_fn_chpl
+FIDname: 5 64 43 wrapcoforall_fn_chpl2
+FIDname: 6 65 43 wrapcoforall_fn_chpl3
+FIDname: 7 70 43 wrapcoforall_fn_chpl4
+FIDname: 8 71 43 wrapcoforall_fn_chpl5
+FIDname: 9 73 43 wrapcoforall_fn_chpl6
+task: 1485111264.836475 0 3 1 L 64 43 5
+task: 1485111264.836484 0 4 1 L 64 43 5
+Btask: 1485111264.836487 0 4
+Btask: 1485111264.836492 0 3
+Etask: 1485111264.851705 0 3
+Etask: 1485111264.851767 0 4
+task: 1485111264.851776 0 5 1 L 65 43 6
+task: 1485111264.851783 0 6 1 L 65 43 6
+Btask: 1485111264.851788 0 6
+Btask: 1485111264.851791 0 5
+Etask: 1485111264.851890 0 6
+Etask: 1485111264.852283 0 5
+task: 1485111264.852297 0 7 1 L 64 43 5
+task: 1485111264.852305 0 8 1 L 64 43 5
+Btask: 1485111264.852307 0 8
+Btask: 1485111264.852313 0 7
+Etask: 1485111264.867454 0 7
+Etask: 1485111264.867536 0 8
+task: 1485111264.867541 0 9 1 L 65 43 6
+task: 1485111264.867547 0 10 1 L 65 43 6
+Btask: 1485111264.867550 0 10
+Btask: 1485111264.867555 0 9
+Etask: 1485111264.867645 0 10
+Etask: 1485111264.867653 0 9
+task: 1485111264.867665 0 11 1 L 64 43 5
+task: 1485111264.867672 0 12 1 L 64 43 5
+Btask: 1485111264.867675 0 12
+Btask: 1485111264.867680 0 11
+Etask: 1485111264.882857 0 11
+Etask: 1485111264.882926 0 12
+task: 1485111264.882931 0 13 1 L 65 43 6
+task: 1485111264.882937 0 14 1 L 65 43 6
+Btask: 1485111264.882943 0 14
+Btask: 1485111264.882944 0 13
+Etask: 1485111264.883040 0 14
+Etask: 1485111264.883042 0 13
+task: 1485111264.883054 0 15 1 L 64 43 5
+task: 1485111264.883062 0 16 1 L 64 43 5
+Btask: 1485111264.883064 0 16
+Btask: 1485111264.883069 0 15
+Etask: 1485111264.898273 0 15
+Etask: 1485111264.898348 0 16
+task: 1485111264.898356 0 17 1 L 65 43 6
+task: 1485111264.898363 0 18 1 L 65 43 6
+Btask: 1485111264.898366 0 18
+Btask: 1485111264.898371 0 17
+Etask: 1485111264.898464 0 18
+Etask: 1485111264.898470 0 17
+task: 1485111264.898482 0 19 1 L 64 43 5
+task: 1485111264.898489 0 20 1 L 64 43 5
+Btask: 1485111264.898496 0 20
+Btask: 1485111264.898496 0 19
+Etask: 1485111264.913684 0 19
+Etask: 1485111264.913747 0 20
+task: 1485111264.913751 0 21 1 L 65 43 6
+task: 1485111264.913758 0 22 1 L 65 43 6
+Btask: 1485111264.913760 0 22
+Btask: 1485111264.913765 0 21
+Etask: 1485111264.913855 0 22
+Etask: 1485111264.913862 0 21
+task: 1485111264.913874 0 23 1 L 64 43 5
+task: 1485111264.913881 0 24 1 L 64 43 5
+Btask: 1485111264.913884 0 24
+Btask: 1485111264.913889 0 23
+Etask: 1485111264.929045 0 23
+Etask: 1485111264.929116 0 24
+task: 1485111264.929121 0 25 1 L 65 43 6
+task: 1485111264.929128 0 26 1 L 65 43 6
+Btask: 1485111264.929130 0 26
+Btask: 1485111264.929135 0 25
+Etask: 1485111264.929226 0 26
+Etask: 1485111264.929233 0 25
+task: 1485111264.929245 0 27 1 L 64 43 5
+task: 1485111264.929252 0 28 1 L 64 43 5
+Btask: 1485111264.929258 0 28
+Btask: 1485111264.929260 0 27
+Etask: 1485111264.944443 0 27
+Etask: 1485111264.944518 0 28
+task: 1485111264.944526 0 29 1 L 65 43 6
+task: 1485111264.944534 0 30 1 L 65 43 6
+Btask: 1485111264.944537 0 30
+Btask: 1485111264.944542 0 29
+Etask: 1485111264.944632 0 30
+Etask: 1485111264.944639 0 29
+task: 1485111264.944651 0 31 1 L 64 43 5
+task: 1485111264.944659 0 32 1 L 64 43 5
+Btask: 1485111264.944661 0 32
+Btask: 1485111264.944666 0 31
+Etask: 1485111264.959844 0 31
+Etask: 1485111264.959907 0 32
+task: 1485111264.959912 0 33 1 L 65 43 6
+task: 1485111264.959918 0 34 1 L 65 43 6
+Btask: 1485111264.959921 0 34
+Btask: 1485111264.959926 0 33
+Etask: 1485111264.960017 0 34
+Etask: 1485111264.960023 0 33
+task: 1485111264.960035 0 35 1 L 64 43 5
+task: 1485111264.960042 0 36 1 L 64 43 5
+Btask: 1485111264.960050 0 36
+Btask: 1485111264.960050 0 35
+Etask: 1485111264.975267 0 35
+Etask: 1485111264.975328 0 36
+task: 1485111264.975334 0 37 1 L 65 43 6
+task: 1485111264.975340 0 38 1 L 65 43 6
+Btask: 1485111264.975343 0 38
+Btask: 1485111264.975348 0 37
+Etask: 1485111264.975440 0 38
+Etask: 1485111264.975449 0 37
+task: 1485111264.975461 0 39 1 L 64 43 5
+task: 1485111264.975468 0 40 1 L 64 43 5
+Btask: 1485111264.975471 0 40
+Btask: 1485111264.975475 0 39
+Etask: 1485111264.990672 0 39
+Etask: 1485111264.990741 0 40
+task: 1485111264.990748 0 41 1 L 65 43 6
+task: 1485111264.990755 0 42 1 L 65 43 6
+Btask: 1485111264.990762 0 42
+Btask: 1485111264.990763 0 41
+Etask: 1485111264.990861 0 42
+Etask: 1485111264.990862 0 41
+task: 1485111264.990876 0 43 1 L 64 43 5
+task: 1485111264.990884 0 44 1 L 64 43 5
+Btask: 1485111264.990884 0 43
+Btask: 1485111264.990886 0 44
+Etask: 1485111265.006066 0 43
+Etask: 1485111265.006174 0 44
+task: 1485111265.006184 0 45 1 L 65 43 6
+task: 1485111265.006192 0 46 1 L 65 43 6
+Btask: 1485111265.006195 0 46
+Btask: 1485111265.006200 0 45
+Etask: 1485111265.006292 0 46
+Etask: 1485111265.006299 0 45
+task: 1485111265.006311 0 47 1 L 64 43 5
+task: 1485111265.006319 0 48 1 L 64 43 5
+Btask: 1485111265.006322 0 48
+Btask: 1485111265.006327 0 47
+Etask: 1485111265.021525 0 47
+Etask: 1485111265.021595 0 48
+task: 1485111265.021602 0 49 1 L 65 43 6
+task: 1485111265.021609 0 50 1 L 65 43 6
+Btask: 1485111265.021618 0 50
+Btask: 1485111265.021618 0 49
+Etask: 1485111265.021716 0 49
+Etask: 1485111265.021717 0 50
+task: 1485111265.021732 0 51 1 L 64 43 5
+task: 1485111265.021739 0 52 1 L 64 43 5
+Btask: 1485111265.021742 0 52
+Btask: 1485111265.021747 0 51
+Etask: 1485111265.036928 0 51
+Etask: 1485111265.036990 0 52
+task: 1485111265.036994 0 53 1 L 65 43 6
+task: 1485111265.037001 0 54 1 L 65 43 6
+Btask: 1485111265.037003 0 54
+Btask: 1485111265.037008 0 53
+Etask: 1485111265.037098 0 54
+Etask: 1485111265.037106 0 53
+task: 1485111265.037117 0 55 1 L 64 43 5
+task: 1485111265.037125 0 56 1 L 64 43 5
+Btask: 1485111265.037130 0 56
+Btask: 1485111265.037132 0 55
+Etask: 1485111265.052357 0 55
+Etask: 1485111265.052405 0 56
+task: 1485111265.052412 0 57 1 L 65 43 6
+task: 1485111265.052420 0 58 1 L 65 43 6
+Btask: 1485111265.052423 0 58
+Btask: 1485111265.052429 0 57
+Etask: 1485111265.052523 0 58
+Etask: 1485111265.052530 0 57
+task: 1485111265.052546 0 59 1 L 70 43 7
+task: 1485111265.052554 0 60 1 L 70 43 7
+Btask: 1485111265.052556 0 60
+Btask: 1485111265.052561 0 59
+Etask: 1485111265.052566 0 60
+Etask: 1485111265.052572 0 59
+task: 1485111265.052573 0 61 1 L 71 43 8
+Btask: 1485111265.052576 0 61
+task: 1485111265.052576 0 62 1 L 71 43 8
+Btask: 1485111265.052581 0 62
+Etask: 1485111265.052586 0 61
+Etask: 1485111265.052589 0 62
+task: 1485111265.052593 0 63 1 L 73 43 9
+task: 1485111265.052596 0 64 1 L 73 43 9
+Btask: 1485111265.052597 0 63
+Btask: 1485111265.052602 0 64
+Etask: 1485111265.052606 0 63
+Etask: 1485111265.052612 0 64
+VdbMark: 1485111265.052615 0 1
+task: 1485111265.052617 0 65 1 L 98 46 4
+task: 1485111265.052623 0 66 1 L 98 46 4
+Btask: 1485111265.052625 0 66
+Etask: 1485111265.052627 0 66
+Btask: 1485111265.052630 0 65
+Etask: 1485111265.052633 0 65
+End: 1485111265.052634 0.439957 0.015514 0 1
